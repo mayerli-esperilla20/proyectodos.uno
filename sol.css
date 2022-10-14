@@ -1,0 +1,136 @@
+body{
+    background-size: 100%;
+    background-color: #c9bfd81b;
+    background-image: url("https://i.pinimg.com/originals/63/24/3a/63243aacfe563f25e472f9e187723df1.gif");
+    background-repeat:no-repeat; /* sirve para que no se repita x para que se repita horizontal y y vertical*/ 
+    background-position-x: center;
+    background-position-y: center; /* backgound-size es para ajustar el tamaño de la imagen com rem px o porcentaje*/
+    background-attachment: fixed; /* sirve para que lña imagen baje cunado scroleas y fixed se queda statica*/
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold; /* negtrita */
+    /*sombra horizontal - sombra vertical - tamaño sombra - color */
+    text-shadow: 3px 2px 3px black;
+}
+
+.nc{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c9bfd81b;
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nd{
+    height: 70px;
+    margin-right:15px;
+}
+img{
+    border-radius: 3%;
+    /*border: 2px solid white;*/
+    /*padding: 5px;*/
+}
+ul {
+    list-style-type: none; /* quitar viñetas*/
+    margin: 0;      /*espacio externo*/
+    padding: 0;         /*espacio interno*/
+    overflow: hidden;   /*texto flotante este en el cuadro*/
+    background-color:#397D8A;
+    text-align: center;
+    font-weight: bold;
+}
+
+li {
+    float: left; /*texto flotante*/
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #5DA3B2;
+}
+
+main{
+    background-color: #c9bfd81b;
+    color: rgb(255, 255, 255);
+    float: left;
+    width: 73%;
+    height:50%;
+    margin-right: 20px;
+}
+aside{
+    float: right;
+    width: 25%;
+    height: 50%;
+    background-color:#c9bfd81b ;
+}
+ol li{
+    list-style-image: url("./image/estrella.png");
+}
+
+p {
+    text-align: justify;
+    /* text-decoration: underline; solo para lineas */
+    letter-spacing: 2px;
+    /*separo las letras*/
+    word-spacing: 5px;
+    /*separo las palabras*/
+    /*text-transform: lowercase;*/
+    /*para cambiar minulcula o mayuscula lowercase = minuscula*/
+    line-height: 25px;
+    /*separacion de una linea y otra*/
+    /*pintar el fondo del nav colocar el nombre de cada planeta, imagen de otro planeta tiene que tener mismo estilo
+    imagen mismo tamaño, hacer el footer, al titulo agregar color, color de texo y fondo pintado en el header */
+    font-size: 20px;
+}
+
+footer {
+        background-color: #c9bfd81b;
+        clear:both; 
+        color: aliceblue;  
+        text-align: center; 
+}
+#ash{
+    color: white;
+    text-align: center;
+    font-size: 20px; 
+}
+#qpd{
+    text-align: center;
+    font-size: 30px;
+}
+section{
+    clear: both;
+}
+#osh{
+    text-align: center;
+    background-color: #c9bfd801;
+    color: rgb(255, 255, 255);
+}
+
+#enlace:link{
+    color: pink;
+}
+#enlace:visited{
+    color: white;
+}
+#enlace:hover{
+    background-color: #397D8A;
+}
+#xdd{
+    background-color: #c9bfd81b;
+    text-align: center;
+}
