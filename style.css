@@ -1,0 +1,94 @@
+body{
+    background-size: 100%;
+    background-color: #c9bfd81b;
+    background-image: url("https://i.pinimg.com/originals/63/24/3a/63243aacfe563f25e472f9e187723df1.gif");
+    background-repeat:no-repeat; /* sirve para que no se repita x para que se repita horizontal y y vertical*/ 
+    background-position-x: center;
+    background-position-y: center; /* backgound-size es para ajustar el tamaño de la imagen com rem px o porcentaje*/
+    background-attachment: fixed; /* sirve para que lña imagen baje cunado scroleas y fixed se queda statica*/
+}
+.nc{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c9bfd81b;
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nd{
+    height: 70px;
+    margin-right:15px;
+}
+
+main{
+    background-color: #c9bfd81b;
+    color: black(104, 104, 172); 
+}
+#lol{
+    color: #E7E7E7; text-align: justify;
+    font-weight: bold;
+}
+#ppp{
+    color: #3CB4CA;
+}
+#xd{
+    color: white;
+}
+img{
+    border-radius: 3%;
+    /*border: 2px solid white;*/
+    /*padding: 5px;*/
+}
+p{
+    text-align: justify;
+    /* text-decoration: underline; solo para lineas */
+    letter-spacing: 2px; /*separo las letras*/
+    word-spacing: 5px;   /*separo las palabras*/
+    /* text-transform:lowercase; para cambiar minulcula o mayuscula lowercase = minuscula*/
+    line-height: 25px;  /*separacion de una linea y otra*/
+    /*pintar el fondo del nav colocar el nombre de cada planeta, imagen de otro planeta tiene que tener mismo estilo
+    imagen mismo tamaño, hacer el footer, al titulo agregar color, color de texo y fondo pintado en el header */
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none; /* quitar viñetas*/
+    margin: 0;      /*espacio externo*/
+    padding: 0;         /*espacio interno*/
+    overflow: hidden;   /*texto flotante este en el cuadro*/
+    background-color:#397D8A;
+    text-align: center;
+    font-weight: bold;
+}
+
+li {
+    float: left; /*texto flotante*/
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #5DA3B2;
+}
+
+h2{
+    text-align: center; color: white;
+}
+h1{text-align: center; color: white;} 
+p{
+    text-align: center;
+}
+footer{
+    background-color: #c9bfd81b;clear:both; color: aliceblue;   
+}
